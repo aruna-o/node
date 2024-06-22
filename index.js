@@ -28,7 +28,11 @@ connect();
 */
 
 app.get('/', (req, res) => {
-    res.send({message: 'Hello Word'})
+    res.send({
+        name: 'aruna',
+        age: 21,
+        role: "Front End developer",
+    })
 })
 
 /*
